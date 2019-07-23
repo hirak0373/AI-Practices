@@ -1,0 +1,7 @@
+import csv
+with open("stu.csv","w",,newline="") as f:
+    data_handler=csv.writer(f,delimeter=",")
+    data_handler.writerow(["name","Age","Rollnbr"])
+    data_handler.writerow(["hira","20","555"])
+    data_handler.writerow(["urooj","22","626"])
+

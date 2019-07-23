@@ -1,0 +1,2 @@
+country="pakistan"
+print(country)

@@ -1,0 +1,4 @@
+b = int(input("Enter base: "))
+h = int(input("Enter height: "))
+A = (1 / 2) * (b * h)
+print(A)
